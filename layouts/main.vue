@@ -1,13 +1,15 @@
 <template>
-    <div class="content">
+    <div class="layout">
+      <h2>Extending Layouts from Lib - (1)</h2>
       <slot />
     </div>
   
   </template>
   
-  <style lang="css" scoped>
-  .content {
-    background: blue;
+  <style lang="scss" scoped>
+  .layout {
+    background: #ececec;
+    height: 100%;
   }
   </style>
   
