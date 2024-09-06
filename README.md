@@ -1,1 +1,1 @@
-# Nuxt Lib with shared resources (test)
+# Nuxt Lib with shared resources
