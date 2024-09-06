@@ -1,5 +1,5 @@
 <template>
-    <h2 class="page">Extending Pages from Lib - (test)</h2>
+    <h2 class="page">Extending Pages from Lib - (index)</h2>
 </template>
 
 <style lang="scss" scoped>
