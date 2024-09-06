@@ -7,7 +7,7 @@
   
   <style lang="css" scoped>
   .content {
-    background: red;
+    background: blue;
   }
   </style>
   
