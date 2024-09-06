@@ -1,5 +1,5 @@
 <template>
-    <h2>Extending Components from Lib/UI - (1)</h2>
+    <h2>Extending Components from Lib/UI - (1)..</h2>
 </template>
 
 <style lang="scss" scoped>
