@@ -1,4 +1,6 @@
 
+import { useRequestHeaders } from '#imports';
+
 export default defineCachedEventHandler(async event => {
   const headers = useRequestHeaders()
 
