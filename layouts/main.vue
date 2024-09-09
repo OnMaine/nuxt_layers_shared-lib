@@ -8,7 +8,8 @@
   
   <style lang="scss" scoped>
   .layout {
-    background-image: '@/assets/bg.jpg';
+    background: url('@/assets/bg.jpg') center center no-repeat;
+    background-size: cover;
     height: 100%;
   }
   </style>
