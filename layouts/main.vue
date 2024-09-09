@@ -2,6 +2,8 @@
   <div class="layout">
     <h2>Extending Layouts from Lib - (1)</h2>
     <slot />
+
+    <img src="assets/bg.jpg" width="250" height="20">
   </div>
 
 </template>
