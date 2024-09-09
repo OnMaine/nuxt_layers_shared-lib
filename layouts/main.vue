@@ -8,7 +8,7 @@
   
   <style lang="scss" scoped>
   .layout {
-    background: #49a7ac;
+    background-image: '@/assets/bg.jpg';
     height: 100%;
   }
   </style>
