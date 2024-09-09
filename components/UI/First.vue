@@ -7,5 +7,6 @@ h2 {
   color: rgb(77, 66, 66);
   font-size: 20px;
   font-weight: 500;
+  padding: 20px;
 }
 </style>

@@ -4,7 +4,9 @@
 
 <style lang="scss" scoped>
 h2 {
-  color: rgb(77, 66, 66);
+  padding: 20px;
+  background: #35495e;
+  color: white;
   font-size: 20px;
   font-weight: 500;
 }

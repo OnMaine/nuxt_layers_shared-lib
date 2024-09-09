@@ -1,4 +1,6 @@
 export const useTest = () => {
 
-  return console.log('composables/use_test.ts');
+  console.log('composables/use_test.ts from library');
+
+  return 'composables/use_test.ts from library';
 };

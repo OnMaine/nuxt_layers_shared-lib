@@ -1,0 +1,1 @@
+export default defineEventHandler(() => 'test api 2 with header from lib')
