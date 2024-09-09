@@ -9,3 +9,10 @@
   font-weight: 500;
 }
 </style>
+
+<script setup>
+
+definePageMeta({
+ layout: 'main',
+});
+</script>
