@@ -19,19 +19,13 @@ import {
   export const useApi = <T>({
     requestUrl = '',
     options = {},
-    headers,
   }: Params) => {
-    const { $api } = useNuxtApp();
+    const { $customFetch } = useNuxtApp();
   
     const { composableOptions , ...apiOptions } = options;
   
     return useAsyncData<T, FetchError | null>(
-      options.key || requestUrl.replaceAll('/', ''),
-      () => $api<T>(requestUrl, {
-        ...apiOptions,
-        headers,
-      }),
-      composableOptions,
+      () => $customFetch(requestUrl)
     );
   };
   
